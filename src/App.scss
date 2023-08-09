@@ -1,0 +1,20 @@
+html,
+body {
+  scrollbar-gutter: stable;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin: 2rem auto;
+  width: 45vw;
+  max-width: 90vw;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
