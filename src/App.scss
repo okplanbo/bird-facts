@@ -19,7 +19,7 @@ a {
   color: darkcyan;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 820px) {
     main {
         width: 90vw;
     }
