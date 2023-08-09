@@ -90,7 +90,7 @@ export const Home: React.FC<HomeProps> = ({
                             label="Authors"
                         />
                     )}
-                    onChange={(e, values) => setSelectedAuthors(values.map(author => author.id))}
+                    onChange={(_e, values) => setSelectedAuthors(values.map(author => author.id))}
                 />
                 <TextField
                     fullWidth
